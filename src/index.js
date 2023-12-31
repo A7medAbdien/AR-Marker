@@ -28,7 +28,7 @@ createRoot(document.getElementById("root")).render(
     <ARMarker
       params={{ smooth: true }}
       type={"pattern"}
-      patternUrl={"data/patt.hiro"}
+      patternUrl={"data/card.patt"}
       onMarkerFound={() => {
         console.log("Marker Found")
       }}>
